@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.nicindustries.hibernate.memcached",
+    "module": "hibernate-l2-memcached",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hibernate-l2-memcached-1.0.jar",
+          "url": "hibernate-l2-memcached-1.0.jar",
+          "size": 34614,
+          "sha512": "42d4baf24a1093fb514c2edc37949005d5d487737323200407f61e8753028d5b868c5a58ce2c52539811390158315e89c691056ebe8fa3e7872745fbbd936be1",
+          "sha256": "f74dce8cbce320192f5a3a46e21f1714d3e7acdfb1be27905f556c89fa510e81",
+          "sha1": "2fc6571343abc69615d4194cbab880ac2fa4772b",
+          "md5": "6d7098855d077b35913853d461e0aa29"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.spy",
+          "module": "spymemcached",
+          "version": {
+            "requires": "2.12.3"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.5.6"
+          }
+        },
+        {
+          "group": "org.hibernate",
+          "module": "hibernate-core",
+          "version": {
+            "requires": "5.6.1.Final"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "hibernate-l2-memcached-1.0.jar",
+          "url": "hibernate-l2-memcached-1.0.jar",
+          "size": 34614,
+          "sha512": "42d4baf24a1093fb514c2edc37949005d5d487737323200407f61e8753028d5b868c5a58ce2c52539811390158315e89c691056ebe8fa3e7872745fbbd936be1",
+          "sha256": "f74dce8cbce320192f5a3a46e21f1714d3e7acdfb1be27905f556c89fa510e81",
+          "sha1": "2fc6571343abc69615d4194cbab880ac2fa4772b",
+          "md5": "6d7098855d077b35913853d461e0aa29"
+        }
+      ]
+    }
+  ]
+}

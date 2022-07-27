@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategyTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-07-27T22:32:04" hostname="macbook-pro.nicindustries.local" time="0.002">
+  <properties/>
+  <testcase name="testNullKeyDoesNotValidate" classname="com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategyTest" time="0.001"/>
+  <testcase name="testReallyLongKeysGetTruncated" classname="com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategyTest" time="0.0"/>
+  <testcase name="test" classname="com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategyTest" time="0.0"/>
+  <testcase name="testNullRegion" classname="com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategyTest" time="0.0"/>
+  <testcase name="testSpaces" classname="com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategyTest" time="0.001"/>
+  <system-out><![CDATA[13678 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [7f00c6faf1fefaf62cabb512285cc60ce641d5c8]
+13678 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [cd23e26dd7ab1d052e1c0a04daa27a03f6cd5d1c]
+13678 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [6afcec5614479d46a1ec6d73dabbc2cea154da3c]
+13679 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [949b2a6fce917d85bd56e6197c93b3affa694e50]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

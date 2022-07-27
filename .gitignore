@@ -1,15 +1,24 @@
-#Idea IDE files
-.idea
-*.ipr
-*.iws
-*.iml
-
-#Eclipse files
-
+build/
+bin/
+gen/
+.settings/
+.gradle/
+.DS_Store
 .classpath
 .project
-.settings
-bin
+local.properties
+persistence.xml
+dist/
+
+# IntelliJ IDEA
+out/
+*.iml
+.idea/*
+!.idea/codeStyles
+*.iws
+.idea_modules/
+*.ipr
+.jpb
 
 #output files
 target

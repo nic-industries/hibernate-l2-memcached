@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nicindustries.hibernate.memcached.PropertiesHelperTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-07-27T22:32:04" hostname="macbook-pro.nicindustries.local" time="0.001">
+  <properties/>
+  <testcase name="testInt" classname="com.nicindustries.hibernate.memcached.PropertiesHelperTest" time="0.001"/>
+  <testcase name="testEnum" classname="com.nicindustries.hibernate.memcached.PropertiesHelperTest" time="0.0"/>
+  <testcase name="testLong" classname="com.nicindustries.hibernate.memcached.PropertiesHelperTest" time="0.0"/>
+  <testcase name="testIvalidEnum" classname="com.nicindustries.hibernate.memcached.PropertiesHelperTest" time="0.0"/>
+  <testcase name="testFindValues" classname="com.nicindustries.hibernate.memcached.PropertiesHelperTest" time="0.0"/>
+  <testcase name="testBoolean" classname="com.nicindustries.hibernate.memcached.PropertiesHelperTest" time="0.0"/>
+  <testcase name="testStrings" classname="com.nicindustries.hibernate.memcached.PropertiesHelperTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

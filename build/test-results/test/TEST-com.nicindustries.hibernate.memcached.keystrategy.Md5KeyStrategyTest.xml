@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nicindustries.hibernate.memcached.keystrategy.Md5KeyStrategyTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-07-27T22:32:04" hostname="macbook-pro.nicindustries.local" time="0.001">
+  <properties/>
+  <testcase name="testReallyLongKeysGetTruncated" classname="com.nicindustries.hibernate.memcached.keystrategy.Md5KeyStrategyTest" time="0.001"/>
+  <testcase name="test" classname="com.nicindustries.hibernate.memcached.keystrategy.Md5KeyStrategyTest" time="0.0"/>
+  <testcase name="test_null_key_does_not_validate" classname="com.nicindustries.hibernate.memcached.keystrategy.Md5KeyStrategyTest" time="0.0"/>
+  <testcase name="testNullRegion" classname="com.nicindustries.hibernate.memcached.keystrategy.Md5KeyStrategyTest" time="0.0"/>
+  <testcase name="testSpaces" classname="com.nicindustries.hibernate.memcached.keystrategy.Md5KeyStrategyTest" time="0.0"/>
+  <system-out><![CDATA[13676 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Md5KeyStrategy  - Final cache key: [16df3d87c2f8bde43fcdbb545be10626]
+13676 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Md5KeyStrategy  - Final cache key: [a088ce3b48a12c8a8f26058240f4518d]
+13677 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Md5KeyStrategy  - Final cache key: [cf23c7bb0c99979d4be1129adc959e6f]
+13677 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Md5KeyStrategy  - Final cache key: [0564810c2fd4e86dc6f355ad99e7d01b]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

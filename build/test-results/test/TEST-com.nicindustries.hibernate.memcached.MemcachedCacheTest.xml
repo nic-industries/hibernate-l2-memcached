@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.nicindustries.hibernate.memcached.MemcachedCacheTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-07-27T22:32:04" hostname="macbook-pro.nicindustries.local" time="0.006">
+  <properties/>
+  <testcase name="testDogpileCacheMiss" classname="com.nicindustries.hibernate.memcached.MemcachedCacheTest" time="0.002"/>
+  <testcase name="testDogpileCacheHit" classname="com.nicindustries.hibernate.memcached.MemcachedCacheTest" time="0.001"/>
+  <testcase name="testClearCacheWithProperties" classname="com.nicindustries.hibernate.memcached.MemcachedCacheTest" time="0.0"/>
+  <testcase name="testBasics" classname="com.nicindustries.hibernate.memcached.MemcachedCacheTest" time="0.003"/>
+  <system-out><![CDATA[13668 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13668 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13668 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Checking dogpile key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf.dogpileTokenKey]
+13668 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.getMulti(c5748b8419a58135ce11004bc88e60d1e3ec2ebf, c5748b8419a58135ce11004bc88e60d1e3ec2ebf.dogpileTokenKey)
+13668 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Dogpile key (c5748b8419a58135ce11004bc88e60d1e3ec2ebf.dogpileTokenKey) not found updating token and returning null
+13668 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13668 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Dogpile prevention enabled, setting token and adjusting object cache time. Key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf.dogpileTokenKey]
+13668 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.set(c5748b8419a58135ce11004bc88e60d1e3ec2ebf)
+13669 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13669 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13669 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Dogpile prevention enabled, setting token and adjusting object cache time. Key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf.dogpileTokenKey]
+13669 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.set(c5748b8419a58135ce11004bc88e60d1e3ec2ebf)
+13669 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13669 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.set(c5748b8419a58135ce11004bc88e60d1e3ec2ebf)
+13669 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13669 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.get(c5748b8419a58135ce11004bc88e60d1e3ec2ebf)
+13670 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [9bf09e2737d923fee6f9581052b2b956a9dd38fa]
+13670 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.get(9bf09e2737d923fee6f9581052b2b956a9dd38fa)
+13670 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13670 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.get(c5748b8419a58135ce11004bc88e60d1e3ec2ebf)
+13670 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13670 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.set(c5748b8419a58135ce11004bc88e60d1e3ec2ebf)
+13670 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13672 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.get(c5748b8419a58135ce11004bc88e60d1e3ec2ebf)
+13672 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13672 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.set(c5748b8419a58135ce11004bc88e60d1e3ec2ebf)
+13672 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13672 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.get(c5748b8419a58135ce11004bc88e60d1e3ec2ebf)
+13672 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13672 [Test worker] DEBUG com.nicindustries.hibernate.memcached.keystrategy.Sha1KeyStrategy  - Final cache key: [c5748b8419a58135ce11004bc88e60d1e3ec2ebf]
+13672 [Test worker] DEBUG com.nicindustries.hibernate.memcached.MemcachedCache  - Memcache.get(c5748b8419a58135ce11004bc88e60d1e3ec2ebf)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
