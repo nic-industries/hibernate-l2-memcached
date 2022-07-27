@@ -1,2 +1,2 @@
 
-com.mc.hibernate.memcached.cache.StrategyRegistrationProviderImpl
+com.nicindustries.hibernate.memcached.cache.StrategyRegistrationProviderImpl

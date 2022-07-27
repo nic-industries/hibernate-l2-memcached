@@ -28,7 +28,7 @@ https://mvnrepository.com/artifact/com.github.mihaicostin/hibernate-l2-memcached
 # Example config:
 
 ```xml
-<property name="hibernate.cache.region.factory_class">com.mc.hibernate.memcached.MemcachedRegionFactory</property>
+<property name="hibernate.cache.region.factory_class">MemcachedRegionFactory</property>
 <property name="hibernate.memcached.operationTimeout">5000</property>
 <property name="hibernate.memcached.connectionFactory">KetamaConnectionFactory</property>
 <property name="hibernate.memcached.hashAlgorithm">FNV1_64_HASH</property>
@@ -69,10 +69,10 @@ If memcached are running on a remote server, e.g. on AWS ElastiCache, you can sp
 |-------------------------------------------|---------------|
 | hibernate.memcached.cacheTimeSeconds      |300            |
 | hibernate.memcached.clearSupported        |false          |
-| hibernate.memcached.memcacheClientFactory | com.mc.hibernate.memcached.spymemcached.SpyMemcacheClientFactory |
+| hibernate.memcached.memcacheClientFactory | SpyMemcacheClientFactory |
 | hibernate.memcached.dogpilePrevention     | false |
 | hibernate.memcached.dogpilePrevention.expirationFactor| 2 |
-| hibernate.memcached.keyStrategy | com.mc.hibernate.memcached.keystrategy.Sha1KeyStrategy |
+| hibernate.memcached.keyStrategy | Sha1KeyStrategy |
 
 In order to specify a property for a specific region add the region name right after `memcached`. ex: `hibernate.memcached.myregion.cacheTimeSeconds`
 
